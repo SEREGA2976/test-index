@@ -1,0 +1,134 @@
+body{
+    
+    /*font-family: 'Open Sans', sans-serif;*/
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+
+}
+h1, h2, h3, p{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.block-books{
+    
+    background-color: #b3ac95;
+}
+.wrap{
+
+    max-width: 1171px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 161px;
+
+}
+.content-books{
+    display: flex;
+    justify-content: space-between;
+}
+.books-bg{
+    position: relative;
+    background-image: url(img/book.png);
+    width: 269px;
+    height: 409px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.block-books-title{
+    display: block;
+    text-align: center;
+    font-size: 48px;
+    color: rgb(68, 68, 79);
+    font-weight: bold;
+    line-height: 0.917;
+    padding-top: 157px;
+    padding-bottom: 87px;
+    
+}
+.books-desc{
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: rgb(101, 228, 150);
+    line-height: 2.444;
+    
+}
+.books-title{
+    text-align: center;
+    color: #ffff;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    padding-top: 76px;
+}
+.books-title>span{
+    display: block;
+    
+}
+span{
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: #65e496;
+    text-transform: initial;
+    color: rgb(101, 228, 150);
+    letter-spacing: 0.5px;
+    padding-top: 17px;
+
+    
+}
+.book-author{
+    position: absolute;
+    bottom: 32px;
+    left: 81px;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(101, 228, 150);
+    line-height: 2;
+    letter-spacing: 0.7px;
+    
+}
+.books-name{
+    font-size: 24px;
+    color: rgb(68, 68, 79);
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    padding-top: 39px;
+    padding-bottom: 22px;
+}
+
+.books-item{
+    width: 311px;
+}
+.books-btn{
+    display: block;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 90px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(101, 228, 150);
+    font-weight: 700;
+    line-height: 1.6;
+    letter-spacing: 0.7px;
+}
+.books-link{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    max-width: 220px;
+    background-color: #65e49d;
+    border-radius: 3px;
+    padding: 17px 0;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+
